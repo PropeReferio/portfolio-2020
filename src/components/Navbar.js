@@ -1,15 +1,35 @@
 import React from 'react';
-import NavItem from './NavItem';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
     <nav>
       <ul>
-        <NavItem name="Home" to="/"></NavItem>
-        <NavItem name="About" to="/"></NavItem>
-        <NavItem name="Project" to="/"></NavItem>
-        <NavItem name="Skills" to="/"></NavItem>
-        <NavItem name="Contact" to="/"></NavItem>
+        <li id='Home'>
+          <Link to='/'>
+            Home
+          </Link>
+        </li>
+        <li id='About'>
+          <Link to='/about'>
+            About
+          </Link>
+        </li>
+        <li id='Projects'>
+          <Link to='/projects'>
+            Projects
+          </Link>
+        </li>
+        <li id='Skills'>
+          <Link to='/skills'>
+            Skills
+          </Link>
+        </li>
+        <li id='Contact'>
+          <Link to='/contact'>
+            Contact
+          </Link>
+        </li>
       </ul>
     </nav>
   )
