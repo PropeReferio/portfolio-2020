@@ -1,5 +1,14 @@
+:root {
+  --blood: #a1001a;
+}
 .App {
   text-align: center;
+  /* background-color: black; */
+  color: white;
+  height: 100vh;
+}
+html {
+  background-color: black;
 }
 
 ul {
@@ -9,4 +18,57 @@ ul {
 li {
   display: inline;
   margin: 0 1em;
+}
+li a {
+  color: white;
+  text-decoration: none;
+}
+.socialIcons {
+  height: 100%;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin: 0 auto;
+}
+.socialIcons svg {
+  padding: 5px;
+}
+#header {
+  background-color: var(--blood);
+  height: 60px;
+}
+.headerWrapper {
+  margin: 0 auto;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+#mainBanner {
+  background-image: url("../src/img/computer-computer-code-screen-monitor-wallpaper.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+}
+.grayFilter {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(159, 159, 159, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bannerContainer {
+  text-align: right;
+  width: 85%;
+  height: 70%;
+  display: flex;
+  justify-content: right;
+}
+.bannerTextBox {
+  width: 50%;
+  padding: 10px;
+}
+button {
+  cursor: pointer;
 }
