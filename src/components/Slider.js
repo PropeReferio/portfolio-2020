@@ -12,7 +12,7 @@ const getWidth = () => window.innerWidth
  * @function Slider
  */
 const Slider = props => {
-  const { slides } = props
+  const { slides, testimonials, authors } = props
 
   const firstSlide = slides[0]
   const secondSlide = slides[1]
@@ -120,7 +120,7 @@ const Slider = props => {
         width={getWidth() * _slides.length}
       >
         {_slides.map((_slide, i) => (
-          <Slide width={getWidth()} key={_slide + i} content={_slide} />
+          <Slide width={getWidth()} key={_slide + i} content={_slide} testimonial={testimonials[i]} author={authors[i]}  />
         ))}
       </SliderContent>
 
@@ -134,11 +134,10 @@ const Slider = props => {
 
 const SliderCSS = css`
   position: relative;
-  height: 100vh;
+  height: 50vh;
   width: 100vw;
   margin: 0 auto;
   overflow: hidden;
-  white-space: nowrap;
 `
 
 export default Slider
