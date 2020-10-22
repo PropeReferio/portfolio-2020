@@ -73,6 +73,7 @@ nav li a:hover {
 }
 .socialIcons svg {
   padding: 5px;
+  padding-left: 15px;
 }
 /* .socialIcons svg:hover {
   display: none;
@@ -89,17 +90,17 @@ nav li a:hover {
   justify-content: space-between;
 }
 #mainBanner {
-  background-image: url("../src/img/computer-computer-code-screen-monitor-wallpaper.jpg");
+  background-image: url("../src/img/computer-computer-code-screen-monitor-wallpaper-gray.png");
   background-size: cover;
   width: 100%;
   height: 550px;
-  text-shadow: 1px 1px 2px #d6d6d6;
+  text-shadow: 1px 1px 3px #d6d6d6;
   text-transform: uppercase;
 }
 .grayFilter {
   height: 100%;
   width: 100%;
-  background-color: rgba(159, 159, 159, 0.2);
+  /* background-color: rgba(159, 159, 159, 0.2); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,4 +118,32 @@ nav li a:hover {
 }
 button {
   cursor: pointer;
+}
+.two-column-row {
+  display: flex;
+  justify-content: center;
+  min-height: 500px;
+}
+#profile-photo {
+  flex: 1;
+  background-image: url("../src/img/jobsbig.jpeg");
+  background-size: cover;
+}
+#testimonials {
+  flex: 2;
+  background-color: var(--blood);
+}
+.slider {
+  padding: 40px 80px;
+}
+.slider p {
+  font-size: 24px;
+}
+.slider h4 {
+  font-size: 24px;
+}
+#testisHeader {
+  margin: 20px;
+  margin-top: 30px;
+  font-size: 60px;
 }
