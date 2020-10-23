@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from '../Slider';
+import Skills from '../Skills';
 import { images, testimonials, authors } from '../../data/sliderData.js'
 
 export default function Home() {
@@ -21,9 +22,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <h2 id="testisHeader">
-        TESTIMONIALS
-      </h2>
       <div className="two-column-row">
         <div id="testimonials">
           <div>
@@ -56,9 +54,14 @@ export default function Home() {
         <div className id="profile-photo">
         </div>
       </div>
+      <h2 id="testisHeader">
+        TESTIMONIALS
+      </h2>
       <div id="testimonialsSlider" >
         <Slider slides={images} testimonials={testimonials} authors={authors} />
       </div>
+      <h2>SKILLS</h2>
+      <Skills />
     </>
   )
 }

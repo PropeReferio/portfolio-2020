@@ -28,6 +28,18 @@
 h1, h2, h3 {
 font-family: 'NeutraText Demi' !important;
 }
+h1 {
+  font-size: 72px;
+}
+h2 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 30px;
+}
+h5 {
+  font-size: 24px;
+}
 h4, h5, h6 {
 font-family: 'NeutraText Demi' !important;
 }
@@ -142,8 +154,27 @@ button {
 .slider h4 {
   font-size: 24px;
 }
+.skillWrapper {
+	width: 80vw;
+}
+.skillRow {
+	display: flex;
+}
+.skillRow > div {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+}
 #testisHeader {
   margin: 20px;
   margin-top: 30px;
   font-size: 60px;
+}
+#footer {
+  background-color: var(--blood);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 80px;
 }

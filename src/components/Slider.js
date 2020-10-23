@@ -14,9 +14,9 @@ const getWidth = () => window.innerWidth
 const Slider = props => {
   const { slides, testimonials, authors } = props
 
-  const firstSlide = slides[0]
-  const secondSlide = slides[1]
-  const lastSlide = slides[slides.length - 1]
+  const firstSlide = { image: slides[0], testimonial: testimonials[0], author: authors[0] }
+  const secondSlide = { image: slides[1], testimonial: testimonials[1], author: authors[1] }
+  const lastSlide = { image: slides[2], testimonial: testimonials[2], author: authors[2] }
 
   const [state, setState] = useState({
     activeSlide: 0,
@@ -120,7 +120,7 @@ const Slider = props => {
         width={getWidth() * _slides.length}
       >
         {_slides.map((_slide, i) => (
-          <Slide width={getWidth()} key={_slide + i} content={_slide} testimonial={testimonials[i]} author={authors[i]}  />
+          <Slide width={getWidth()} key={_slide + i} content={_slide.image} testimonial={_slide.testimonial} author={_slide.author}  />
         ))}
       </SliderContent>
 

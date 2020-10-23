@@ -5,6 +5,7 @@ import './App.css';
 
 import Navbar from './components/Navbar';
 import Social from './components/Social';
+import Footer from './components/Footer';
 
 import Home from './components/pages/Home';
 import About from './components/pages/About';
@@ -40,6 +41,7 @@ function App() {
             <Contact />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
