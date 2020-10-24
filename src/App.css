@@ -138,7 +138,7 @@ button {
 }
 #profile-photo {
   flex: 1;
-  background-image: url("../src/img/jobsbig.jpeg");
+  background-image: url("../src/img/bo-stevens-headshot.jpg");
   background-size: cover;
 }
 #testimonials {
