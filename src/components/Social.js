@@ -31,7 +31,7 @@ export default function Social() {
       <a onMouseEnter={() => setIsEmailBlack(false)}
         onMouseLeave={() => setIsEmailBlack(true)}
         rel="noopener noreferrer" target="_blank"
-        href="tel: +1 615-788-9366">
+        href="mailto:lemuel.b.stevens@gmail.com">
         <FaRegEnvelope size={38} style={{ fill: isEmailBlack ? '#fff' : '#262626' }} />
       </a>
     </div>

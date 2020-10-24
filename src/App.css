@@ -29,7 +29,7 @@ h1, h2, h3 {
 font-family: 'NeutraText Demi' !important;
 }
 h1 {
-  font-size: 72px;
+  font-size: 60px;
 }
 h2 {
   font-size: 60px;
@@ -145,7 +145,13 @@ button {
   flex: 2;
   background-color: var(--blood);
 }
-.slider {
+#testimonials > div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 80px 40px;
+}
+/* .slider {
   padding: 40px 80px;
 }
 .slider p {
@@ -153,19 +159,28 @@ button {
 }
 .slider h4 {
   font-size: 24px;
+} */
+#testimonialsSlider h3 {
+	font-size: 24px;
+}
+#testimonialsSlider h5 {
+	font-size: 20px;
 }
 .skillWrapper {
-	width: 80vw;
+	width: 60vw;
+	background-color: var(--blood);
+	border-radius: 8px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 40px;
 }
-.skillRow {
+.skillWrapper > div {
 	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 30px;
 }
-.skillRow > div {
-	flex: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 300px;
+.skillWrapper div:first-child {
+	padding-top: 30px;
 }
 #testisHeader {
   margin: 20px;

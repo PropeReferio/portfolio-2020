@@ -7,7 +7,7 @@ const Slide = ({ content, width, testimonial, author }) => (
     css={css`
       height: 100%;
       width: ${width}px;
-      padding: 20px 140px;
+      padding: 0px 140px;
       background-image: url('${content}');
       background-size: cover;
       background-repeat: no-repeat;
