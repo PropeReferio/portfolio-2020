@@ -10,7 +10,6 @@ export default function Contact() {
 		<div id="contact">
 			<h1>Contact Me</h1>
 
-			<br></br>
 			<a href="mailto: lemuel.b.stevens@gmail.com"
 				onMouseEnter={() => setIsEmailGray(true)}
         onMouseLeave={() => setIsEmailGray(false)}>
