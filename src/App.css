@@ -1,6 +1,8 @@
 :root {
   --blood: #a1001a;
-  --darksmoke: #262626;
+	--darksmoke: #262626;
+	--headerFont: 'NeutraText Demi';
+	--normalFont: 'MyriadPro Regular';
 }
 /* Fonts */
 @font-face {
@@ -26,7 +28,7 @@
 }
 
 h1, h2, h3 {
-font-family: 'NeutraText Demi' !important;
+font-family: var(--headerFont) !important;
 }
 h1 {
   font-size: 60px;
@@ -41,11 +43,11 @@ h5 {
   font-size: 24px;
 }
 h4, h5, h6 {
-font-family: 'NeutraText Demi' !important;
+font-family: var(--headerFont) !important;
 }
 
 p, body {
-font-family: 'MyriadPro Regular' !important;
+font-family: var(--normalFont) !important;
 }
 /* End Fonts */
 .App {
@@ -186,6 +188,22 @@ button {
   margin: 20px;
   margin-top: 30px;
   font-size: 60px;
+}
+.card {
+	background-color: var(--blood);
+	border-radius: 8px;
+	width: 60vw;
+	padding: 2em;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 3em;
+}
+#about {
+	font-size: 1.4em;
+}
+.aboutSection {
+	font-weight: bold;
+	font-family: var(--headerFont);
 }
 #footer {
   background-color: var(--blood);
