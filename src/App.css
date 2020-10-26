@@ -1,6 +1,7 @@
 :root {
   --blood: #a1001a;
 	--darksmoke: #262626;
+	--lightsmoke: #a6a6a6;
 	--headerFont: 'NeutraText Demi';
 	--normalFont: 'MyriadPro Regular';
 }
@@ -184,7 +185,7 @@ button {
 .skillWrapper div:first-child {
 	padding-top: 30px;
 }
-#testisHeader {
+#referrals {
   margin: 20px;
   margin-top: 30px;
   font-size: 60px;
@@ -195,10 +196,12 @@ button {
 	width: 60vw;
 	padding: 2em;
 	display: block;
-	margin: 0 auto;
-	margin-bottom: 3em;
+	margin: 3em auto;
 }
-#about {
+/* .card h3 {
+	color: var(--lightsmoke);
+} */
+.about {
 	font-size: 1.4em;
 }
 .aboutSection {

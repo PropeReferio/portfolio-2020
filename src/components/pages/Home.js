@@ -52,13 +52,13 @@ export default function Home() {
         <div className id="profile-photo">
         </div>
       </div>
-      <h2 id="testisHeader">
-        TESTIMONIALS
+      <h2 id="referrals">
+        REFERRALS
       </h2>
       <div id="testimonialsSlider" >
         <Slider slides={images} testimonials={testimonials} authors={authors} />
       </div>
-      <h2>SKILLS</h2>
+      <h2 id="skills">SKILLS</h2>
       <Skills />
     </>
   )

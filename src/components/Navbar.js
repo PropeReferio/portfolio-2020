@@ -21,9 +21,14 @@ export default function Navbar() {
           </Link>
         </li>
         <li id='Skills'>
-          <Link to='/skills'>
+          <a href="#skills">
             Skills
-          </Link>
+					</a>
+        </li>
+        <li id='Referrals'>
+          <a href="#referrals">
+            Referrals
+					</a>
         </li>
         <li id='Contact'>
           <Link to='/contact'>
