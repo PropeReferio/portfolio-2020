@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Skills() {
 	return(
-		<div className="skillWrapper">
+		<div className="skillWrapper boxShadow">
 			<div>
 				<img src='images/python.png' alt='CSS' />
 				<img src='images/javascript.png' alt='CSS' />

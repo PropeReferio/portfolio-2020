@@ -10,11 +10,11 @@ export default function Home() {
       <div id="mainBanner">
         <div className="grayFilter">
           <div className="bannerContainer">
-            <div className="bannerTextBox">
+            <div className="bannerTextBox textShadow">
               <h1>Dedicated. Driven. Coachable.</h1>
               <h3>I'm a self-starter who's passionate about figuring out
 							how things work. </h3>
-              <a href="tel:+1 615-788-9366"><button>
+              <a href="tel:+1 615-788-9366"><button className="boxShadow">
                 <h4>CALL NOW</h4>
               </button></a>
             </div>
@@ -53,13 +53,13 @@ export default function Home() {
         <div className id="profile-photo">
         </div>
       </div>
-      <h2 id="referrals">
+      <h2 id="referrals" className="darkTextShadow">
         REFERRALS
       </h2>
       <div id="testimonialsSlider" >
         <Slider slides={images} testimonials={testimonials} authors={authors} />
       </div>
-      <h2 id="skills">SKILLS</h2>
+      <h2 id="skills" className="darkTextShadow">SKILLS</h2>
       <Skills />
     </>
   )
