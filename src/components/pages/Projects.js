@@ -18,16 +18,16 @@ export default function Projects() {
 				link="https://wilsoninvestigations.com/"
 				/>
 			<Project 
-				title="International Guard Services" 
-				description="Sed ut perspiciatis unde omnis iste natus error sit 
-				voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
-				 ipsa quae ab illo inventore veritatis et quasi architecto beatae 
-				 vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas 
-				 sit aspernatur aut odit aut fugit, sed quia consequunt adipisci"
-				skills="Wordpress, HTML, CSS"
+				title="Smartphone App with Credit Card Validation" 
+				description="I can't talk in great detail about this one because I
+				signed an NDA, but it was a really cool project that involved credit
+				card validation. I wrote custom error messages that explained to the
+				user what might be wrong with their input, and developed security
+				features to keep the user's payment secure."
+				skills="React Native, Javascript, Toast, Text Mask"
 				imagePath="https://picsum.photos/300/200"
 				pictureFirst={false}
-				link="https://wilsoninvestigations.com/"
+				link=""
 				/>
 			<Project 
 				title="COVID-19 Dashboard" 
