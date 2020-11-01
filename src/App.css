@@ -220,6 +220,16 @@ button {
 	font-weight: bold;
 	font-family: var(--headerFont);
 }
+.projectCard {
+	width: 100vw;
+	min-height: 400px;
+	display: flex;
+	background-color: var(--crimson);
+}
+.projectText {
+	text-align: left;
+	padding: 2em;
+}
 #contact {
 	text-align: left;
 	margin-left: 3em;
