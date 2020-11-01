@@ -8,7 +8,7 @@ export default function Contact() {
 	const white = '#fff';
   return(
 		<div id="contact">
-			<h1>Contact Me</h1>
+			<h1 className="darkTextShadow">CONTACT</h1>
 
 			<a href="mailto: lemuel.b.stevens@gmail.com"
 				onMouseEnter={() => setIsEmailGray(true)}

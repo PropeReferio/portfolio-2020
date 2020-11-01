@@ -60,7 +60,12 @@ font-family: var(--normalFont) !important;
 html {
   background-color: black;
 }
-
+a {
+	text-decoration: none;
+}
+a:visited {
+	color: white;
+}
 nav ul {
   list-style-type: none;
 }
@@ -222,13 +227,30 @@ button {
 }
 .projectCard {
 	width: 100vw;
-	min-height: 400px;
+	min-height: 300px;
 	display: flex;
 	background-color: var(--crimson);
+	margin: 40px 0;
+	box-shadow: 0px 0px 8px 3px var(--lightsmoke);
+}
+.projectCard a {
+	flex: 2;
+	color: white;
+}
+.projectCard img {
+	height: 100%;
+	width: 100%;
 }
 .projectText {
 	text-align: left;
-	padding: 2em;
+	padding: 0 2em;
+	flex: 3;
+}
+.projectText h2 {
+	font-size: 44px;
+}
+.projectText a:hover {
+	color: var(--lightsmoke);
 }
 #contact {
 	text-align: left;
