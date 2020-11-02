@@ -133,7 +133,7 @@ nav li a:hover {
   /* background-color: rgba(159, 159, 159, 0.2); */
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 .bannerContainer {
   text-align: left;
