@@ -165,6 +165,7 @@ button {
   flex: 2;
   background-image: url("../src/img/bo-stevens-headshot.jpg");
 	background-size: cover;
+	background-position: top;
 }
 .rec-carousel {
 	/* background-color: var(--crimson); */
