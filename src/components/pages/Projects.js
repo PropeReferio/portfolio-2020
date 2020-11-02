@@ -4,7 +4,7 @@ import Project from '../Project'
 
 export default function Projects() {
   return(
-		<>
+		<div id="projects">
 			<h1 className="darkTextShadow">PROJECTS</h1>
 			<Project 
 				title="Wilson Investigations" 
@@ -18,14 +18,15 @@ export default function Projects() {
 				link="https://wilsoninvestigations.com/"
 				/>
 			<Project 
-				title="Smartphone App with Credit Card Validation" 
+				id="project2"
+				title="App with Credit Card Validation" 
 				description="I can't talk in great detail about this one because I
 				signed an NDA, but it was a really cool project that involved credit
 				card validation. I wrote custom error messages that explained to the
 				user what might be wrong with their input, and developed security
 				features to keep the user's payment secure."
 				skills="React Native, Javascript, Toast, Text Mask"
-				imagePath="https://picsum.photos/300/200"
+				imagePath="../images/projects/credit-card-validation-02.png"
 				pictureFirst={false}
 				link=""
 				/>
@@ -40,6 +41,6 @@ export default function Projects() {
 				pictureFirst={true}
 				link="https://covid-dash-bo.herokuapp.com/"
 				/>
-		</>
+			</div>
   )
 }

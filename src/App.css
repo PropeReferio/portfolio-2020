@@ -153,36 +153,46 @@ button {
   justify-content: center;
   min-height: 500px;
 }
-#profile-photo {
-  flex: 1;
-  background-image: url("../src/img/bo-stevens-headshot.jpg");
-  background-size: cover;
-}
-#testimonials {
-  flex: 2;
-  background-color: var(--crimson);
-}
-#testimonials > div {
+#quote {
+	flex: 3;
+	background-color: var(--crimson);
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	padding: 80px 40px;
+	justify-content: center;
+	padding: 0 2em;
 }
-#testimonialsSlider h3 {
-	font-size: 24px;
+#profile-photo {
+  flex: 2;
+  background-image: url("../src/img/bo-stevens-headshot.jpg");
+	background-size: cover;
 }
-#testimonialsSlider h5 {
-	font-size: 20px;
+.rec-carousel {
+	/* background-color: var(--crimson); */
+	background-image: url("../src/img/team-of-architects.jpg");
+	background-size: cover;
+	background-position: center;
+	min-height: 400px;
 }
 .rec-carousel-wrapper .rec-dot_active {
-	background-color: var(--crimson) !important;
-	box-shadow: 0 0 1px 3px rgba(161,0,26,0.5);
+	background-color: white !important;
+	box-shadow: 0 0 1px 3px var(--lightsmoke);
 }
 .rec-carousel-wrapper .rec-dot:hover:enabled {
-	box-shadow: 0 0 1px 3px rgba(161,0,26,0.8);
+	box-shadow: 0 0 1px 3px var(--darksmoke);
 }
 .rec-arrow-left:hover:enabled, .rec-arrow-right:hover:enabled {
-	background-color: var(--crimson) !important;
+	background-color: var(--lightsmoke) !important;
+}
+.rec-arrow-left, .rec-arrow-right {
+	background-color: white !important;
+}
+.rec-carousel-item {
+	color: black;
+	text-shadow: 0px 0px 4px white;
+	font-size: 1.5em;
+}
+.carouselItem {
+	padding: 2em;
 }
 .skillWrapper {
 	width: 60vw;
@@ -250,6 +260,9 @@ button {
 .projectCard img {
 	height: 100%;
 	width: 100%;
+}
+.projectImageWrapper {
+	flex: 2;
 }
 .projectText {
 	text-align: left;

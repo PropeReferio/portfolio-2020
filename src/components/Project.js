@@ -8,6 +8,7 @@ export default function Project({
 	pictureFirst,
 	link 
 }) {
+	if (link) {
 	return(
 		<div className='projectCard' style={{ flexDirection: pictureFirst ? 'row' : 'row-reverse' }}>
 			<a href={link} rel="noopener noreferrer" target="_blank">
@@ -22,4 +23,18 @@ export default function Project({
 			</div>
 		</div>
 	)
+	} else {
+		return(
+			<div className='projectCard' style={{ flexDirection: pictureFirst ? 'row' : 'row-reverse' }}>
+				<div className="projectImageWrapper">
+					<img src={imagePath} alt="Project" />
+				</div>
+				<div className='projectText'>
+					<h2 className="darkTextShadow">{title}</h2>
+					<p>{description}</p>
+					<h5>Made with {skills}</h5>
+				</div>
+			</div>
+		)
+	}
 }
