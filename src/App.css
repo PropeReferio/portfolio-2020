@@ -1,5 +1,6 @@
 :root {
-  --crimson: #a1001a;
+  /* --crimson: #a1001a; */
+  --forestGreen: #0a3e04;
 	--darksmoke: #262626;
 	--lightsmoke: #a6a6a6;
 	--headerFont: 'NeutraText Demi';
@@ -99,7 +100,7 @@ nav li a:hover {
   display: none;
 } */
 #header {
-  background-color: var(--crimson);
+  background-color: var(--forestGreen);
   height: 60px;
   padding-top: 6px;
 }
@@ -117,7 +118,7 @@ nav li a:hover {
   text-transform: uppercase;
 }
 #mainBanner button {
-	background-color: var(--crimson);
+	background-color: var(--forestGreen);
 	border: 1px black;
 	border-radius: 2px;
 	font-size: 1.3em;
@@ -155,7 +156,7 @@ button {
 }
 #quote {
 	flex: 3;
-	background-color: var(--crimson);
+	background-color: var(--forestGreen);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -168,7 +169,7 @@ button {
 	background-position: top;
 }
 .rec-carousel {
-	/* background-color: var(--crimson); */
+	/* background-color: var(--forestGreen); */
 	background-image: url("../src/img/team-of-architects.jpg");
 	background-size: cover;
 	background-position: center;
@@ -197,7 +198,7 @@ button {
 }
 .skillWrapper {
 	width: 60vw;
-	background-color: var(--crimson);
+	background-color: var(--forestGreen);
 	border-radius: 8px;
 	display: block;
 	margin: 0 auto;
@@ -217,7 +218,7 @@ button {
   font-size: 60px;
 }
 .card {
-	background-color: var(--crimson);
+	background-color: var(--forestGreen);
 	border-radius: 8px;
 	width: 60vw;
 	padding: 2em;
@@ -250,7 +251,7 @@ button {
 	width: 100vw;
 	min-height: 300px;
 	display: flex;
-	background-color: var(--crimson);
+	background-color: var(--forestGreen);
 	margin: 40px 0;
 	box-shadow: 0px 0px 8px 3px var(--lightsmoke);
 }
@@ -297,7 +298,7 @@ button {
 	transform: translateX(10px);
 }
 #footer {
-  background-color: var(--crimson);
+  background-color: var(--forestGreen);
   display: flex;
   flex-direction: column;
   padding: 20px 80px;
