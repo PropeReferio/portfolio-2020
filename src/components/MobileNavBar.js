@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaHamburger } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
@@ -8,6 +8,7 @@ export default function MobileNavBar() {
 	function toggleIsVisible () {
 		setIsVisible(!isVisible);
 	}
+	
 	return(
 		<div id="mobileNavBar">
 			<div id="mobileNavButton">
@@ -22,32 +23,32 @@ export default function MobileNavBar() {
 				<nav>
 					<ul>
 						<li id='Home'>
-							<Link to='/'>
+							<Link to='/' onClick={toggleIsVisible}>
 								Home
 							</Link>
 						</li>
 						<li id='About'>
-							<Link to='/about'>
+							<Link to='/about' onClick={toggleIsVisible}>
 								About
 							</Link>
 						</li>
 						<li id='Projects'>
-							<Link to='/projects'>
+							<Link to='/projects' onClick={toggleIsVisible}>
 								Projects
 							</Link>
 						</li>
 						<li id='Skills'>
-							<a href="/#skills">
+							<a href="/#skills" onClick={toggleIsVisible}>
 								Skills
 							</a>
 						</li>
 						<li id='Referrals'>
-							<a href="/#referrals"> 
+							<a href="/#referrals" onClick={toggleIsVisible}> 
 								Referrals
 							</a>
 						</li>
 						<li id='Contact'>
-							<Link to='/contact'>
+							<Link to='/contact' onClick={toggleIsVisible}>
 								Contact
 							</Link>
 						</li>

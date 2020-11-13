@@ -320,13 +320,35 @@ button {
   padding: 0.8em 0;
   text-transform: uppercase;
   text-align: left;
+  border-bottom: solid 1px var(--darksmoke);
+  transform: translateX(-2em);
+}
+#mobileNavBar ul li:nth-child(1) {
   border-top: solid 1px var(--darksmoke);
 }
 @media only screen and (max-width: 768px) {
   #header {
-	display: none;
+		display: none;
   }
   #mobileNavBar {
-	display: flex;
-  }
+		display: flex;
+	}
+	.bannerContainer {
+		text-align: center;
+		flex-direction: column;
+	}
+	.bannerTextBox {
+		width: 100%;
+		/* margin-top: 180px; */
+	}
+	.bannerTextBox h1 {
+		font-size: 48px;
+	}
+  .two-column-row {
+	flex-direction: column;
+	}
+	#profile-photo {
+		flex: none;
+		height: 400px;
+	}
 }
