@@ -4,6 +4,7 @@ import './App.css';
 
 
 import Navbar from './components/Navbar';
+import MobileNavBar from './components/MobileNavBar';
 import Social from './components/Social';
 import Footer from './components/Footer';
 
@@ -24,6 +25,7 @@ function App() {
             <Social />
           </div>
         </div>
+				<MobileNavBar />
         <Switch>
           <Route exact path="/">
             <Home />

@@ -303,3 +303,14 @@ button {
   flex-direction: column;
   padding: 20px 80px;
 }
+#mobileNavBar {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  #header {
+	display: none;
+  }
+  #mobileNavBar {
+	display: block;
+  }
+}
