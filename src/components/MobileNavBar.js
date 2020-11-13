@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaHamburger } from "react-icons/fa";
+import { FaHamburger, FaBars } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 export default function MobileNavBar() {
@@ -12,7 +12,7 @@ export default function MobileNavBar() {
 	return(
 		<div id="mobileNavBar">
 			<div id="mobileNavButton">
-				<FaHamburger 
+				<FaBars 
 					size={28} 
 					onClick={toggleIsVisible}
 					style={{ fill: '#fff' }} />

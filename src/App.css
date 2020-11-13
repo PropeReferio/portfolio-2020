@@ -311,7 +311,8 @@ button {
   padding: 1em;
   align-items: flex-start;
   flex-direction: column;
-  position: fixed;
+	position: fixed;
+	top: 0;
   background: black;
   width: 100vw;
   z-index: 99;
@@ -366,6 +367,12 @@ button {
 	.bannerTextBox {
 		width: 100%;
 		/* margin-top: 180px; */
+	}
+	#mainBanner {
+		padding-top: 69px;
+	}
+	#about, #projects, #contact {
+		margin-top: 89px;
 	}
 	h1, h2, #referrals {
 		font-size: 48px;

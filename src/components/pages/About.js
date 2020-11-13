@@ -4,7 +4,7 @@ export default function About() {
   return(
 		<>
 			{/* <h1>ABOUT ME</h1> */}
-			<div className="card boxShadow">
+			<div id="about" className="card boxShadow">
 				<h3 className="darkTextShadow">STRONG COMMUNICATOR</h3>
 				<p className="about">I'm a developer with many interests, which has 
 					exposed me to many
