@@ -341,7 +341,7 @@ button {
 		width: 100%;
 		/* margin-top: 180px; */
 	}
-	.bannerTextBox h1 {
+	h1, h2, #referrals {
 		font-size: 48px;
 	}
   .two-column-row {
@@ -350,5 +350,34 @@ button {
 	#profile-photo {
 		flex: none;
 		height: 400px;
+	}
+	.skillWrapper {
+		width: 85vw;
+	}
+	.projectCard {
+		flex-direction: column !important;
+	}
+}
+@media only screen and (max-width: 522px) {
+	#contact h3 {
+		font-size: 14px;
+	}
+	#contact svg {
+		width: 19px;
+		height: 28px;
+	}
+	.carouselItem {
+		padding: 100px 0px;
+	}
+	.carouselItem h4, .carouselItem h5 {
+		font-size: 18px;
+	}
+}
+@media only screen and (max-width: 375px) {
+	h1, h2, #referrals {
+		font-size: 32px;
+	}
+	h3 {
+		font-size: 22px;
 	}
 }

@@ -8,12 +8,12 @@ export default function MobileNavBar() {
 	function toggleIsVisible () {
 		setIsVisible(!isVisible);
 	}
-	
+
 	return(
 		<div id="mobileNavBar">
 			<div id="mobileNavButton">
 				<FaHamburger 
-					size={38} 
+					size={28} 
 					onClick={toggleIsVisible}
 					style={{ fill: '#fff' }} />
 			</div>
