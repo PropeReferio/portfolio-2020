@@ -329,6 +329,29 @@ button {
 #mobileNavBar ul li:nth-child(1) {
   border-top: solid 1px var(--darksmoke);
 }
+@media only screen and (max-width: 1200px) {
+	.projectCard {
+		flex-direction: column !important;
+	}
+	.headerWrapper {
+		width: 100%;
+	}
+	#desktopNav li a {
+		font: 1em 'NeutraText Demi';
+	}
+	#desktopNav li {
+		margin: 0 10px;
+	}
+	#desktopNav ul {
+		padding-left: 20px;
+	}
+	.socialIcons svg {
+		width: 24px;
+	}
+	.socialIcons {
+		padding-right: 20px;
+	}
+}
 @media only screen and (max-width: 768px) {
   #header {
 		display: none;
@@ -356,9 +379,6 @@ button {
 	}
 	.skillWrapper {
 		width: 85vw;
-	}
-	.projectCard {
-		flex-direction: column !important;
 	}
 }
 @media only screen and (max-width: 522px) {
