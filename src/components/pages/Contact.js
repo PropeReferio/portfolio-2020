@@ -14,7 +14,7 @@ export default function Contact() {
 				onMouseEnter={() => setIsEmailGray(true)}
         onMouseLeave={() => setIsEmailGray(false)}>
 				<h3>
-					<FaWhatsapp size={38} style={{ fill: isEmailGray ? lightSmoke : white }} />
+					<FaRegEnvelope size={38} style={{ fill: isEmailGray ? lightSmoke : white }} />
 					   lemuel.b.stevens@gmail.com
 				</h3>
 			</a>
@@ -22,7 +22,7 @@ export default function Contact() {
 				onMouseEnter={() => setIsPhoneGray(true)}
 				onMouseLeave={() => setIsPhoneGray(false)}>
 				<h3>
-					<FaRegEnvelope size={38} style={{ fill: isPhoneGray ? lightSmoke : white }} />
+					<FaWhatsapp size={38} style={{ fill: isPhoneGray ? lightSmoke : white }} />
 					   +1 615-788-9366
 				</h3>
 			</a>
