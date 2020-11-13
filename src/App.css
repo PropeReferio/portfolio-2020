@@ -360,6 +360,9 @@ button {
   #mobileNavBar {
 		display: flex;
 	}
+	#mobileNavBar a {
+		color: white;
+	}
 	.bannerContainer {
 		text-align: center;
 		flex-direction: column;
