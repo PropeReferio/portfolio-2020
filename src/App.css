@@ -338,6 +338,12 @@ button {
 	.two-column-row {
 		height: 700px;
 	}
+	#quote h3 {
+		font-size: 38px;
+	}
+	#quote h5 {
+		font-size: 34px;
+	}
 }
 @media only screen and (max-width: 1200px) {
 	.projectCard {
