@@ -334,6 +334,11 @@ button {
 #mobileNavBar ul li:nth-child(1) {
   border-top: solid 1px var(--darksmoke);
 }
+@media only screen and (min-width: 1600px) {
+	.two-column-row {
+		height: 700px;
+	}
+}
 @media only screen and (max-width: 1200px) {
 	.projectCard {
 		flex-direction: column !important;
@@ -393,6 +398,12 @@ button {
 	}
 	.skillWrapper {
 		width: 85vw;
+	}
+}
+/* Between 480px and 768px */
+@media only screen and (max-width: 768px) and (min-width: 480px) {
+	#profile-photo {
+		height: 600px;
 	}
 }
 @media only screen and (max-width: 522px) {

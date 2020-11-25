@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { FaHamburger, FaBars } from "react-icons/fa";
+import React, { useState } from 'react';
+import { FaBars } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 export default function MobileNavBar() {
