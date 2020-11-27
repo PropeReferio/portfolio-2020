@@ -213,6 +213,7 @@ button {
 }
 .skillWrapper > div {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-evenly;
 	padding-bottom: 30px;
 }
@@ -368,6 +369,12 @@ button {
 		padding-right: 20px;
 	}
 }
+@media only screen and (max-width: 1000px) {
+	.skillWrapper img {
+		width: 120px;
+		height: 120px;
+	}
+}
 @media only screen and (max-width: 768px) {
   #header {
 		display: none;
@@ -412,6 +419,11 @@ button {
 		height: 600px;
 	}
 }
+@media only screen and (max-width: 563px) {
+	.skillWrapper div:nth-child(1) {
+		padding-bottom: unset;
+	}
+}
 @media only screen and (max-width: 522px) {
 	#contact h3 {
 		font-size: 14px;
@@ -425,6 +437,12 @@ button {
 	}
 	.carouselItem h4, .carouselItem h5 {
 		font-size: 18px;
+	}
+}
+@media only screen and (min-width: 423px) and (max-width: 563px) {
+	.skillWrapper img {
+		width: 150px;
+		height: 150px;
 	}
 }
 @media only screen and (max-width: 375px) {
