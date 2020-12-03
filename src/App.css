@@ -421,7 +421,7 @@ button {
 }
 @media only screen and (max-width: 563px) {
 	.skillWrapper div:nth-child(1) {
-		padding-bottom: unset;
+		padding-bottom: unset; 
 	}
 }
 @media only screen and (max-width: 522px) {
