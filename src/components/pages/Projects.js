@@ -6,7 +6,7 @@ export default function Projects() {
   return(
 		<div id="projects">
 			<h1 className="darkTextShadow">PROJECTS</h1>
-			<Project 
+			{/* <Project 
 				title="Wilson Investigations" 
 				description="It was my responsibility to implement the styles, the
 				contact form, anti-spam security measures, image optimization, media
@@ -16,6 +16,16 @@ export default function Projects() {
 				imagePath="../images/projects/wilson-investigations-web-development.png"
 				pictureFirst={true}
 				link="https://wilsoninvestigations.com/"
+				/> */}
+			<Project 
+				title="Data Exfiltration Audit" 
+				description="I researched, designed and implemented an organization-wide
+				audit to ensure that data could only be transfered through specified
+				channels, making it difficult for hackers to steal data."
+				skills="gcloud, Powershell, SQL"
+				imagePath="../images/projects/classified.jpg"
+				pictureFirst={true}
+				link=""
 				/>
 			<Project 
 				id="project2"

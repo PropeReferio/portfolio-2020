@@ -6,7 +6,7 @@ export default function About() {
 			{/* <h1>ABOUT ME</h1> */}
 			<div id="about" className="card boxShadow">
 				<h3 className="darkTextShadow">STRONG COMMUNICATOR</h3>
-				<p className="about">I'm a developer with many interests, which has 
+				<p className="about">I'm a python developer with many interests, which has 
 					exposed me to many
 					walks of life. As a result of this, and having worked in skiing and
 					skydiving instruction, I'm able to talk to just about anyone and convey

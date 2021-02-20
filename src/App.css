@@ -282,6 +282,9 @@ button {
 .projectText h2 {
 	font-size: 44px;
 }
+.projectText p {
+	font-size: 24px;
+}
 .projectText a:hover {
 	color: var(--lightsmoke);
 }

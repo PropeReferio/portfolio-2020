@@ -10,12 +10,12 @@ export default function Contact() {
 		<div id="contact">
 			<h1 className="darkTextShadow">CONTACT</h1>
 
-			<a href="mailto: lemuel.b.stevens@gmail.com"
+			<a href="mailto: lemuel.b.stevens@protonmail.com"
 				onMouseEnter={() => setIsEmailGray(true)}
         onMouseLeave={() => setIsEmailGray(false)}>
 				<h3>
 					<FaRegEnvelope size={38} style={{ fill: isEmailGray ? lightSmoke : white }} />
-					   lemuel.b.stevens@gmail.com
+					   lemuel.b.stevens@protonmail.com
 				</h3>
 			</a>
 			<a href="tel: +16157889366"
