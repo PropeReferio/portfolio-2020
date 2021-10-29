@@ -17,7 +17,7 @@ export default function Contact() {
         onMouseLeave={() => setIsEmailGray(false)}>
 				<h3>
 					<FaRegEnvelope size={38} style={{ fill: isEmailGray ? lightSmoke : white }} />
-					   lemuel.b.stevens@protonmail.com
+					   pythonforhire@protonmail.com
 				</h3>
 			</a>
 			<a href="tel: +16157889366"

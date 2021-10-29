@@ -429,11 +429,11 @@ button {
 	.skillWrapper div:nth-child(1) {
 		padding-bottom: unset;
 	}
-}
-@media only screen and (max-width: 522px) {
 	#contact h3 {
 		font-size: 14px;
 	}
+}
+@media only screen and (max-width: 522px) {
 	#contact svg {
 		width: 19px;
 		height: 28px;
