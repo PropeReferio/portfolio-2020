@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import { FaRegEnvelope, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaRegEnvelope, FaWhatsapp } from "react-icons/fa";
 
 export default function Contact() {
+	const [isLinkedinGray, setIsLinkedinGray] = useState(false);
+  const [isGithubGray, setIsGithubGray] = useState(false);
 	const [isPhoneGray, setIsPhoneGray ] = useState(false);
 	const [isEmailGray, setIsEmailGray ] = useState(false);
 	const lightSmoke = '#a6a6a6';
@@ -15,7 +17,7 @@ export default function Contact() {
         onMouseLeave={() => setIsEmailGray(false)}>
 				<h3>
 					<FaRegEnvelope size={38} style={{ fill: isEmailGray ? lightSmoke : white }} />
-					   pythonforhire@protonmail.com
+					   lemuel.b.stevens@protonmail.com
 				</h3>
 			</a>
 			<a href="tel: +16157889366"
@@ -24,6 +26,24 @@ export default function Contact() {
 				<h3>
 					<FaWhatsapp size={38} style={{ fill: isPhoneGray ? lightSmoke : white }} />
 					   +1 615-788-9366
+				</h3>
+			</a>
+			<a href="https://github.com/PropeReferio"
+				className="mobileOnlyContact"
+				onMouseEnter={() => setIsGithubGray(true)}
+				onMouseLeave={() => setIsGithubGray(false)}>
+				<h3>
+					<FaGithub size={38} style={{ fill: isGithubGray ? lightSmoke : white }} />
+					   Github
+				</h3>
+			</a>
+			<a href="https://www.linkedin.com/in/bostevens-a-softwareengineer/"
+				className="mobileOnlyContact"
+				onMouseEnter={() => setIsLinkedinGray(true)}
+				onMouseLeave={() => setIsLinkedinGray(false)}>
+				<h3>
+					<FaLinkedin size={38} style={{ fill: isLinkedinGray ? lightSmoke : white }} />
+					   Linkedin
 				</h3>
 			</a>
 		</div>
