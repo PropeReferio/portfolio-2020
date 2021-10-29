@@ -6,37 +6,25 @@ export default function Projects() {
   return(
 		<div id="projects">
 			<h1 className="darkTextShadow">PROJECTS</h1>
-			{/* <Project 
-				title="Wilson Investigations" 
-				description="It was my responsibility to implement the styles, the
-				contact form, anti-spam security measures, image optimization, media
-				offloading using Cloudfront CDN and backing up the site regularly to 
-				an S3 Bucket with AWS."
-				skills="HTML, CSS, AWS, CDN, Cloudfront, S3 Buckets"
-				imagePath="../images/projects/wilson-investigations-web-development.png"
-				pictureFirst={true}
-				link="https://wilsoninvestigations.com/"
-				/> */}
 			<Project 
-				title="Data Exfiltration Audit" 
-				description="I researched, designed and implemented an organization-wide
-				audit to ensure that data could only be transfered through specified
-				channels, making it difficult for hackers to steal data."
-				skills="gcloud, Powershell, SQL"
+				title="Automated Security Metrics Email" 
+				description="I designed an email that automatically sends at the end
+				of each month to inform managers of how secure our company was. A 
+				table in a SQL database was updated daily with security metrics. These
+				data were used to fill out the HTML of an email dynamically."
+				skills="python, pandas, proxies, Jenkins, SQL, HTML"
 				imagePath="../images/projects/classified.jpg"
 				pictureFirst={true}
 				link=""
 				/>
 			<Project 
 				id="project2"
-				title="App with Credit Card Validation" 
-				description="I can't talk in great detail about this one because I
-				signed an NDA, but it was a really cool project that involved credit
-				card validation. I wrote custom error messages that explained to the
-				user what might be wrong with their input, and developed security
-				features to keep the user's payment secure."
-				skills="React Native, Javascript, Toast, Text Mask"
-				imagePath="../images/projects/credit-card-validation-02.png"
+				title="Data Exfiltration Audit" 
+				description="I researched, designed and implemented an organization-wide
+				audit to ensure that data could only be transfered through specified
+				channels, making it difficult for hackers to steal data."
+				skills="gcloud, Powershell, SQL"
+				imagePath="../images/projects/classified.jpg"
 				pictureFirst={false}
 				link=""
 				/>

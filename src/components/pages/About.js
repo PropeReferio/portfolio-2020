@@ -5,8 +5,19 @@ export default function About() {
 		<>
 			{/* <h1>ABOUT ME</h1> */}
 			<div id="about" className="card boxShadow">
+				<h3 className="darkTextShadow">DATA SPECIALIST</h3>
+				<p className="about">
+					My specialty is using Python to work with data. You could call me a
+					Data Engineer. I excel at ingesting data from complex APIs, unit
+					testing those ingestions, saving that data to a database, and putting
+					the whole thing on a regular cadence to ensure the most current data
+					possible.
+					<br></br>
+					<br></br>
+					Ultimately, I love all things Python and Back End.
+				</p>
 				<h3 className="darkTextShadow">STRONG COMMUNICATOR</h3>
-				<p className="about">I'm a python developer with many interests, which has 
+				<p className="about">I have a variety of interests, which has 
 					exposed me to many
 					walks of life. As a result of this, and having worked in skiing and
 					skydiving instruction, I'm able to talk to just about anyone and convey
