@@ -11,9 +11,8 @@ export default function Home() {
         <div className="grayFilter">
           <div className="bannerContainer">
             <div className="bannerTextBox textShadow">
-              <h1>Dedicated. Driven. Coachable.</h1>
-              <h3>I'm a self-starter who's passionate about figuring out
-							how things work. </h3>
+              <h1>I deliver custom back end solutions.</h1>
+              <h3>I meet my deadlines, and then ask for more work.</h3>
               <a href="tel:+1 615-788-9366"><button id="callButton" className="boxShadow">
                 <h4>CALL NOW</h4>
               </button></a>
