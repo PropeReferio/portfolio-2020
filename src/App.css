@@ -244,10 +244,6 @@ button {
 .darkTextShadow {
 	text-shadow: 2px 3px 3px #898989;
 }
-
-/* .card h3 {
-	color: var(--lightsmoke);
-} */
 .about {
 	font-size: 1.4em;
 }
@@ -307,6 +303,9 @@ button {
 }
 #contact h3 {
 	transform: translateX(10px);
+}
+.mobileOnlyContact {
+	display: none;
 }
 #footer {
   background-color: var(--forestGreen);
@@ -382,6 +381,9 @@ button {
   #header {
 		display: none;
   }
+	.mobileOnlyContact {
+		display: block;
+	}
   #mobileNavBar {
 		display: flex;
 	}
