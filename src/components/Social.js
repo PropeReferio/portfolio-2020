@@ -33,7 +33,7 @@ export default function Social() {
       <a onMouseEnter={() => setIsEmailBlack(true)}
         onMouseLeave={() => setIsEmailBlack(false)}
         rel="noopener noreferrer" target="_blank"
-        href="mailto:lemuel.b.stevens@protonmail.com">
+        href="mailto:pythonforhire@protonmail.com">
         <FaRegEnvelope size={38} style={{ fill: isEmailBlack ? darkSmoke : white }} />
       </a>
     </div>

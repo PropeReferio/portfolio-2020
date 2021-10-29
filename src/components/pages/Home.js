@@ -35,6 +35,19 @@ export default function Home() {
         REFERRALS
       </h2>
 			<Carousel itemsToShow={1} >
+			<CarouselItem 
+					body="Bo joined our team as a junior python developer but over 
+					the year experienced tremendous growth as a software engineer 
+					due to his drive to learn and jump in. Whether it was learning 
+					new GCP services, setting up CICD pipelines, or creating powershell 
+					modules, Bo would not only accept unfamiliar tasks but ask for 
+					more the second he was done. He has a sense of urgency to deliver, 
+					was the first to say hello in the morning, and brought a 
+					different perspective that balanced the team. 
+					I'm excited to follow his growth as he receives new opportunities."
+					author='Andrew Capobianco, Cyber Security Engineer, Equifax' 
+					className="sliderImage1"
+					/>
 				<CarouselItem 
 					body='Highly adaptable and ready to learn. That’s what comes to mind when 
 					I think about Bo! I was his manager and mentor while he worked in 
