@@ -13,6 +13,7 @@ export default function About() {
 					the whole thing on a regular cadence to ensure the most current data
 					possible.
 					<br></br>
+					<br></br>
 					Ultimately, I love all things Python and Back End.
 				</p>
 				<h3 className="darkTextShadow">STRONG COMMUNICATOR</h3>
