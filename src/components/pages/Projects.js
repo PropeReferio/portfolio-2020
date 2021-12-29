@@ -47,7 +47,7 @@ export default function Projects() {
 				flattening of the curve, and color codes the data in a heat map and
 				tables."
 				skills="Python, Pandas, Numpy, Dash, Flask, HTML, CSS"
-				imagePath="../images/projects/covid-dashboard-data-visualization-python-pandas-dash-flask.png"
+				imagePath="../images/projects/Hacker-Hero-a1.webp"
 				pictureFirst={true}
 				link="https://covid-dash-bo.herokuapp.com/"
 				/>
