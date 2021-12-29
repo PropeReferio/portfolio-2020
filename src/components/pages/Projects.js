@@ -36,7 +36,7 @@ export default function Projects() {
 				audit to ensure that data could only be transfered through specified
 				channels, making it difficult for hackers to steal data."
 				skills="gcloud, Powershell, SQL"
-				imagePath="../images/projects/classified.jpg"
+				imagePath="../images/projects/Hacker-Hero-a1.webp"
 				pictureFirst={false}
 				link=""
 				/>
@@ -47,7 +47,7 @@ export default function Projects() {
 				flattening of the curve, and color codes the data in a heat map and
 				tables."
 				skills="Python, Pandas, Numpy, Dash, Flask, HTML, CSS"
-				imagePath="../images/projects/Hacker-Hero-a1.webp"
+				imagePath="../images/projects/covid-dashboard-data-visualization-python-pandas-dash-flask.png"
 				pictureFirst={true}
 				link="https://covid-dash-bo.herokuapp.com/"
 				/>
