@@ -178,8 +178,6 @@ button {
 .rec-carousel {
 	/* background-color: var(--forestGreen); */
 	background-image: url("../src/img/team-of-architects.jpg");
-	filter: blur(8px);
-  -webkit-filter: blur(8px);
 	background-size: cover;
 	background-position: center;
 	min-height: 400px;
