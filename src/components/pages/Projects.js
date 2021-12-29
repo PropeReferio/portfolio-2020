@@ -14,7 +14,7 @@ export default function Projects() {
 				the Docker container, research pricing on Azure and deploy to it, and
 				keep track of previously ingested assets with a SQL database."
 				skills="Python, Azure, SQL Server, Docker, APIs"
-				imagePath="../images/projects/classified.jpg"
+				imagePath="../images/projects/src/img/software-reverse-engineering-t.jpg"
 				pictureFirst={false}
 				link=""
 				/>
