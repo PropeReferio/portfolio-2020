@@ -7,6 +7,18 @@ export default function Projects() {
 		<div id="projects">
 			<h1 className="darkTextShadow">PROJECTS</h1>
 			<Project 
+				title="Stock Asset Middleware" 
+				description="I was the sole developer of software that downloads assets,
+				such as videos, photos and audio, from a stock website's API, and uploads
+				them to cloud storage through another API. I had to optimize memory for
+				the Docker container, research pricing on Azure and deploy to it, and
+				keep track of previously ingested assets with a SQL database."
+				skills="Python, Azure, SQL Server, Docker, APIs"
+				imagePath="../images/projects/software-reverse-engineering-t.jpg"
+				pictureFirst={false}
+				link=""
+				/>
+			<Project 
 				title="Automated Security Metrics Email" 
 				description="I designed an email that automatically sends at the end
 				of each month to inform managers of how secure our company was. A 
@@ -24,7 +36,7 @@ export default function Projects() {
 				audit to ensure that data could only be transfered through specified
 				channels, making it difficult for hackers to steal data."
 				skills="gcloud, Powershell, SQL"
-				imagePath="../images/projects/classified.jpg"
+				imagePath="../images/projects/another-hacker-in-a-hoodie.jpg"
 				pictureFirst={false}
 				link=""
 				/>
