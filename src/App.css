@@ -177,7 +177,7 @@ button {
 }
 .rec-carousel {
 	/* background-color: var(--forestGreen); */
-	background-image: url("../src/img/beautiful_ice.jpg");
+	background-image: url("../src/img/bubbles.jpg");
 	background-size: cover;
 	background-position: center;
 	min-height: 400px;
