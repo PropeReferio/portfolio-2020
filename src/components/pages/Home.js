@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       </div>
       <h2 id="referrals" className="darkTextShadow">
-        REFERRALS
+        RECOMMENDATIONS
       </h2>
 			<Carousel itemsToShow={1} >
 			<CarouselItem 
