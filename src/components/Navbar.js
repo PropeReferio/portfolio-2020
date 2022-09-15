@@ -27,7 +27,7 @@ export default function Navbar() {
         </li>
         <li id='Referrals'>
           <a href="/#referrals"> 
-            Referrals
+            Recommendations
 					</a>
         </li>
         <li id='Contact'>
